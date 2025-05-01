@@ -1,43 +1,48 @@
-# SmartzAgri: A ML-IoT aware Crop Recommendation System for Future Generation Agriculture 
+# SmartzAgri: A ML-IoT aware Crop Recommendation System for Future Generation Agriculture
 
 SmartzAgri is an innovative agricultural solution designed to revolutionize traditional farming practices by providing personalized and data-driven recommendations for crop cultivation. Leveraging advanced technologies, including machine learning algorithms and Internet of Things (IoT) devices, SmartzAgri empowers farmers with precise insights and suggestions to optimize yield and profitability while promoting sustainable farming practices.
 
 <a href="https://smartzagri.onrender.com/"><img src="https://github.com/sanjeetbth7/SmartzAgri/blob/master/public/images/logo.png" alt="CropReco Logo" width="150" height="150"></a>
+
 <h3>**WEBSITE :**  https://smartzagri.onrender.com/</h3>
 
+<!-- ## Team Members ( Infinite Void )
+- **Vishal Kumar Patel**
+- **Sanjeet Kumar**
+- **Ved Anand**
+- **Twisha Talukder** -->
 
-## Team Members ( Infinite Void )
-- **Vishal Kumar Patel** 
-- **Sanjeet Kumar**     
-- **Ved Anand** 
-- **Twisha Talukder**
+<!-- ![Team_member](https://github.com/sanjeetbth7/SmartzAgri/blob/master/public/images/demo/about.png) -->
 
+### Here we have used :
 
-![Team_member](https://github.com/sanjeetbth7/SmartzAgri/blob/master/public/images/demo/about.png)
-
-### Here we have used : 
-- Frontend : HTML, CSS, javaScript, ejs  along with figma design
-- Backend :  node.js , express.js, 
+- Frontend : HTML, CSS, javaScript, ejs along with figma design
+- Backend : node.js , express.js,
 - ML : python
-- Database :  mongoDB
+- Database : mongoDB
 
 ## DATA SOURCE 📊
+
 - [Crop recommendation dataset ](https://www.kaggle.com/atharvaingle/crop-recommendation-dataset) (custom built dataset)
 
 # Getting Started
+
 Follow these instructions to get a copy of the Employee Management System project up and running on your local machine for development and testing purposes.
-* mongoDB
-* nodejs
-* Expressjs
-* python
+
+- mongoDB
+- nodejs
+- Expressjs
+- python
+
 # Installation
-  1) Clone the Employee Management System repository to your local machine
-    <pre>git clone https://github.com/sanjeetbth7/SmartAgri.git<pre>
-  2) Install nodejs
-     <pre>https://nodejs.org/en/download</pre>
-  3) Install Expressjs
-     <pre>$ npm init
-      $ npm install express</pre>
+
+1. Clone the Employee Management System repository to your local machine
+<pre>git clone https://github.com/sanjeetbth7/SmartAgri.git<pre>
+2. Install nodejs
+   <pre>https://nodejs.org/en/download</pre>
+3. Install Expressjs
+   <pre>$ npm init
+    $ npm install express</pre>
 
 ## Problem Statement
 
@@ -50,13 +55,13 @@ In this landscape, "SmartzAgri" emerges as a beacon of hope. Seamlessly integrat
 SmartzAgri is utilized for:
 
 1. **Precision Crop Recommendations:** Providing farmers with accurate recommendations for crop selection based on real-time soil insights and environmental conditions.
-  
+
 2. **Real-time Soil Insights:** Offering farmers insights into their soil's health and composition, aiding in making informed decisions regarding crop selection and cultivation practices.
-  
+
 3. **Enhanced Cultivation Guidance:** Providing detailed cultivation guidance tailored to specific environmental conditions, ensuring optimal crop growth and yield.
-  
+
 4. **Time and Labor Efficiency:** Streamlining farming operations by optimizing crop selection and cultivation practices, thereby reducing time and labor inputs.
-  
+
 5. **Empowering Small-scale Farmers:** Bridging the gap between traditional farming practices and modern agricultural technologies, empowering small-scale farmers to improve their productivity and profitability.
 
 ## Challenges Encountered
@@ -102,9 +107,7 @@ By addressing these challenges and leveraging advanced technologies, FASAL SUJHA
 ## Benefits:
 
 - **Precision Agriculture:** CropReco enables precision agriculture by tailoring recommendations to specific environmental conditions, leading to efficient resource utilization and optimized crop yields.
-  
 - **Increased Yield and Profitability:** By providing accurate and personalized recommendations, CropReco aims to maximize crop yield and overall farm profitability.
-  
 - **Sustainable Farming Practices:** With smart irrigation and soil health analysis, CropReco promotes sustainable farming practices, helping farmers make environmentally conscious decisions and reduce resource wastage.
 
 CropReco is not just a tool; it's a comprehensive solution that aims to make agriculture smarter, more efficient, and environmentally sustainable. By integrating cutting-edge technologies with agricultural expertise, CropReco empowers farmers to thrive in an ever-changing agricultural landscape.
@@ -113,16 +116,16 @@ CropReco is not just a tool; it's a comprehensive solution that aims to make agr
 
 [![Watch the video](https://img.youtube.com/vi/zPcmilw_NC0/0.jpg)](https://www.youtube.com/watch?v=zPcmilw_NC0)
 
-
 # Screenshots
-* HOMEPAGE
-<img src="https://github.com/sanjeetbth7/SmartzAgri/blob/master/public/images/demo/home.png" alt="Home Page" width="90%" >
 
-* Prediction form
-<img src="https://github.com/sanjeetbth7/SmartzAgri/blob/master/public/images/demo/prediction-form.png" alt="prediction form" width="90%" >
+- HOMEPAGE
+  <img src="https://github.com/sanjeetbth7/SmartzAgri/blob/master/public/images/demo/home.png" alt="Home Page" width="90%" >
 
-* Prediction
-<img src="https://github.com/sanjeetbth7/SmartzAgri/blob/master/public/images/demo/prediction.png" alt="Prediction" width="90%" >
+- Prediction form
+  <img src="https://github.com/sanjeetbth7/SmartzAgri/blob/master/public/images/demo/prediction-form.png" alt="prediction form" width="90%" >
 
-* Cultivation Process
-<img src="https://github.com/sanjeetbth7/SmartzAgri/blob/master/public/images/demo/howTO.png" alt="Cultivation process" width="90%" >
+- Prediction
+  <img src="https://github.com/sanjeetbth7/SmartzAgri/blob/master/public/images/demo/prediction.png" alt="Prediction" width="90%" >
+
+- Cultivation Process
+  <img src="https://github.com/sanjeetbth7/SmartzAgri/blob/master/public/images/demo/howTO.png" alt="Cultivation process" width="90%" >
