@@ -120,7 +120,29 @@ app.get("/processCultivation/:cropName", async (req, res) => {
     const foundCrop = await Crop.find({
       name: { $regex: new RegExp("^" + reqCrop, "i") },
     });
-    //   console.log(foundCrop[0].name, reqCrop);
+
+    if (!foundCrop || foundCrop.length === 0) {
+      // If no crop is found, render with a default crop object
+      const defaultCrop = {
+        name: "Unknown Crop",
+        steps: {
+          Land_Preparation: "Information not available",
+          Soil_Testing: "Information not available",
+          Seed_Selection: "Information not available",
+          Sowing: "Information not available",
+          Irrigation: "Information not available",
+          Weed_Control: "Information not available",
+          Fertilization: "Information not available",
+          Disease_and_Pest_Management: "Information not available",
+          Crop_Monitoring: "Information not available",
+          Harvesting: "Information not available",
+          Drying_and_Storage: "Information not available",
+        },
+        cost: "Information not available",
+      };
+      return res.render("cropCultivation", { crop: defaultCrop });
+    }
+
     res.render("cropCultivation", { crop: foundCrop[0] });
   } catch (err) {
     // Handle the error appropriately
